@@ -4,7 +4,7 @@ resource "octopusdeploy_kubernetes_cluster_deployment_target" "infra-arm-ingesti
   name                              = "infra-arm-ingestion"
   roles                             = ["app-a", "app-b"]
   tenanted_deployment_participation = "Tenanted"
-  tenants                           = [ data.octopusdeploy_tenants.awn-dev-12345.tenants[0].id ]
+  tenants                           = [ data.octopusdeploy_tenants.awn-deploy-11111.tenants[0].id ]
 
   authentication {
     account_id = "Accounts-2005"
