@@ -29,11 +29,3 @@ data "octopusdeploy_projects" "octopub_frontend" {
 data "octopusdeploy_projects" "octopub_products" {
   name         = "Octopub Products"
 }
-
-data "octopusdeploy_tenants" "awn-dev-12345" {
-  name         = "awn-dev-12345"
-}
-
-data "octopusdeploy_tenants" "awn-deploy-11111" {
-  name         = "awn-deploy-11111"
-}
